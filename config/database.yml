@@ -1,0 +1,35 @@
+production:
+  adapter: mysql
+  encoding: utf8
+  database: sinatra_production
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+  host: localhost
+  
+development:
+  adapter: mysql
+  encoding: utf8
+  database: sinatra_development
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+  host: localhost
+
+test:
+  adapter: mysql
+  encoding: utf8
+  database: sinatra_test
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+  host: localhost
+
+staging:
+  adapter: mysql
+  encoding: utf8
+  database: sinatra_staging
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+  host: localhost

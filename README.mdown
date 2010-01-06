@@ -1,0 +1,24 @@
+# Old Black Magic
+
+## What is this?
+
+I got tired of creating new Sinatra applications that use ActiveRecord.  I know there are alternatives out there but I wanted something really bare bones that I can just clone and work from whenever I need it.
+
+## Dependencies?
+
+	gem install sinatra activerecord sinatra-activerecord
+
+## What's included?
+
+It's basically setup to handle connecting to databases under various environments using ActiveRecord.  I also installed the query_analyzer plugin since I use that all the time when I'm in development mode.
+
+## I want to add/fix something.
+
+By all means, go ahead.  Just send me a pull request so I can check it out when you're done.
+
+## Credits
+
+The unicorn script is derived from the one that was on the github blog post here:
+	http://github.com/blog/517-unicorn
+	
+The unicorn init.d script is taken right out of the unicorn gem itself.  I forget if I hacked it up or not.
